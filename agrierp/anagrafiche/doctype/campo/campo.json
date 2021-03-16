@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:nome_campo",
+ "creation": "2021-03-15 18:42:44.092267",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nome_campo",
+  "coltivazioni_section",
+  "coltivazione_principale",
+  "section_break_4",
+  "olivo",
+  "zafferano",
+  "orto",
+  "lavanda",
+  "column_break_7",
+  "altre_aromatiche",
+  "castagne",
+  "frutteto",
+  "fruttetoorto",
+  "elenco_appezzamenti_section",
+  "georeferenziazione_section",
+  "latitudine",
+  "longitudine",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "nome_campo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nome Campo",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "coltivazioni_section",
+   "fieldtype": "Section Break",
+   "label": "Coltivazione"
+  },
+  {
+   "default": "0",
+   "fieldname": "olivo",
+   "fieldtype": "Check",
+   "label": "Olivo"
+  },
+  {
+   "default": "0",
+   "fieldname": "zafferano",
+   "fieldtype": "Check",
+   "label": "Zafferano"
+  },
+  {
+   "default": "0",
+   "fieldname": "orto",
+   "fieldtype": "Check",
+   "label": "Orto"
+  },
+  {
+   "default": "0",
+   "fieldname": "lavanda",
+   "fieldtype": "Check",
+   "label": "Lavanda"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "altre_aromatiche",
+   "fieldtype": "Check",
+   "label": "Altre aromatiche"
+  },
+  {
+   "default": "0",
+   "fieldname": "castagne",
+   "fieldtype": "Check",
+   "label": "Castagne"
+  },
+  {
+   "default": "0",
+   "fieldname": "frutteto",
+   "fieldtype": "Check",
+   "label": "Frutteto"
+  },
+  {
+   "default": "0",
+   "fieldname": "fruttetoorto",
+   "fieldtype": "Check",
+   "label": "Frutteto/Orto"
+  },
+  {
+   "fieldname": "elenco_appezzamenti_section",
+   "fieldtype": "Section Break",
+   "label": "Elenco Appezzamenti"
+  },
+  {
+   "fieldname": "georeferenziazione_section",
+   "fieldtype": "Section Break",
+   "label": "Georeferenziazione"
+  },
+  {
+   "fieldname": "latitudine",
+   "fieldtype": "Float",
+   "label": "Latitudine"
+  },
+  {
+   "fieldname": "longitudine",
+   "fieldtype": "Float",
+   "label": "Longitudine"
+  },
+  {
+   "fieldname": "coltivazione_principale",
+   "fieldtype": "Data",
+   "label": "Coltivazione principale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Coltivazioni Secondarie"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Campo",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-03-16 14:30:35.000610",
+ "modified_by": "Administrator",
+ "module": "Anagrafiche",
+ "name": "Campo",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
